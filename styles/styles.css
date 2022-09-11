@@ -1,5 +1,5 @@
 body {
-    color: #00431F;
+    color: #000000;
     font-family: 'Heebo', sans-serif;
     font-size: 1.1em;
     margin: 0;
@@ -17,7 +17,7 @@ header {
 
 .logo {
     padding: 10px 0px 10px 50px;
-    width: 250px;
+    width: 150px;
 }
 
 nav {
@@ -44,7 +44,7 @@ nav li a {
 
 /*Used to style navigation menu items when mouse moved over item*/
 nav li a:hover {
-    background-color: #00431F;
+    background-color: #000000;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
@@ -54,11 +54,10 @@ nav li a:hover {
 #homepage {
     background: black url(../MaungaClub/maunga_club_cabin.jpg) no-repeat center;
     background-size: cover;
-    height: 10vh;
+    height: 100vh;
     top: 0px;
-
-
 }
+
 /* Background colour for services section */
 #services {
     background: rgba(255, 91, 0, 0.12);
@@ -84,11 +83,11 @@ h1 {
 
 h2,
 h3 {
-    font-size: 2.3em; 
+    font-size: 2.3em;
 }
 
 .intro-block {
-    background: rgba(0,0,0,0.65); 
+    background: rgba(0,0,0,0.65);
     margin: 0 auto;
     padding: 15px 35px;
     text-align: center;
@@ -103,9 +102,8 @@ h3 {
 }
 
 #about,
-#kakapo,
-#pukeko,
-#Kereru,
+#services,
+#gallery-area,
 #contact,
 footer {
     padding-top: 100px;
@@ -113,17 +111,15 @@ footer {
 }
 
 #about,
-#kakapo,
-#pukeko,
-#Kereru,
-#contact, {
+#services,
+#gallery-area,
+#contact {
     min-height: 100vh;
 }
 
 .content {
     margin: 0 auto;
     max-width: 960px;
-    text-align: left;
 }
 
 #before-footer {
@@ -133,24 +129,24 @@ footer {
 
 .button {
     color: white;
-    border: 3px solid white; 
+    border: 3px solid white;
     font-size: 1.2em;
     font-weight: bold;
     margin: 30px 5px;
-    min-width: 150px; 
+    min-width: 150px;
     padding: 10px 15px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .contact-button {
-    border: 3px solid #00431F; 
+    border: 3px solid #00431F;
     color: #00431F;
     font-size: 1.2em;
     font-weight: bold;
     margin: 30px 5px;
-    min-width: 150px; 
+    min-width: 150px;
     padding: 10px 15px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 /* Styling for when mouse hovered over button in intro section*/
@@ -161,8 +157,8 @@ footer {
 
 /* Styling for when mouse hovered over Email button at bottom of page*/
 .contact-button:hover {
-    background-color: #00431F;
-    border: 3px solid #FF5B00; 
+    background-color: #000000;
+    border: 3px solid #FF5B00;
     color: white;
 }
 
@@ -173,12 +169,12 @@ article {
 
 }
 
-section a { 
+section a {
     display: inline-block;
 }
 
 footer {
-    background-color: #00431F;
+    background-color: #000000;
     color: white;
 }
 
