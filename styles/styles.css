@@ -193,3 +193,7 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 0 auto;
 }
+
+.footer2 {
+
+}
